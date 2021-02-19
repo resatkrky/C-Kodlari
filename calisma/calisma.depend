@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1554056316 source:c:\users\asus\desktop\calisma\main.c
+	<stdio.h>
+	<stdlib.h>
+
