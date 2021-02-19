@@ -1,0 +1,5 @@
+C:\Users\Asus>cd Desktop\homework\bin\Debug
+
+C:\Users\Asus\Desktop\homework\bin\Debug>homework.exe 123456789
+
+cd Desktop\Ödev Nesne\main.exe 

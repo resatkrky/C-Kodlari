@@ -1,0 +1,13 @@
+const main içinde veri tipiyle birlikte tanýmlanýr
+bir daha deðiþmez deðiþmek istendiðinde program hata verir
+
+main()
+   const int a=5;
+a 5 e sabittir daha deðiþmez
+
+#define da main in dýþýnda tanýmlanýr 
+sadece tanýmlamak istediðin kelime yazýlýr sonra deðeri
+
+#define SINIR 500
+main()
+   int sayilar[SINIR] --> yaparsak 500 boyutlu sayilar arrayi tanimlamiþ oluruz

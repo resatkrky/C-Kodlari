@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1532619132 source:c:\users\asus\desktop\yaz c\for-while\main.c
+	<stdio.h>
+	<stdlib.h>
+
