@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1543237414 source:c:\users\asus\desktop\pointer aritmetik\main.c
+	<stdio.h>
+	<stdlib.h>
+

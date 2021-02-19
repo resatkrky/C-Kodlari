@@ -1,0 +1,1 @@
+main deki "if" i "else if" yap 
