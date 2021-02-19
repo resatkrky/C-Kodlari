@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1541604057 source:c:\users\asus\desktop\terscevirme\main.c
+	<stdio.h>
+	<stdlib.h>
+
