@@ -1,0 +1,8 @@
+
+nfft = length(y3);
+nfft2 = 2^nextpow2(nfft);
+ff = fft(y3,nfft2);
+fff = ff(1:nfft2/2);
+plot(abs(fff));
+
+

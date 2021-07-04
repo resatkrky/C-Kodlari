@@ -1,0 +1,16 @@
+t=0:0.02:1;
+x=sin(2 * pi * 2 * t);
+plot(t,x)  %sürekli sinüs sinyali
+N=length(x);
+n=0:1:N-1;
+stem(t,x); %aynı sinyalin ayrık hali(stem discrete çizdirmeye yarıyor)
+y=fft(x,N); %fast fourier
+plot(n,y); %frekans bölgesindeki hali(sürekli)
+stem(n,y) %frekans bölgesindeki hali(ayrık)
+y=y(1:N/2); %imaginary kısmını ayıklıyorum
+y=y/max(y);  %normalize ediyorum
+z=ifft(y,N/2-1); %sinyal ilk haline göre daha dar çünkü yarısını ayıkladık dolayısıyla zaman domaininde stem(t,z) boyut uyuşmazlığı hatası verecektir o yüzden yeni bir zaman tanımlayalım
+
+q=0:1:N/2-1;
+stem(q,z); %ilk sinyalin ayrık hali
+plot(q,z); %ilk sinyalin sürekli hali

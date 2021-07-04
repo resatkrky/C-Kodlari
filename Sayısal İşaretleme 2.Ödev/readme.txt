@@ -1,0 +1,14 @@
+**AD SOYAD**
+**NUMARA**
+
+---KURULUM
+
+
+---KULLANIM
+
+
+--DEĞİŞİKLİKLER
+
+
+---KAYNAKLAR
+

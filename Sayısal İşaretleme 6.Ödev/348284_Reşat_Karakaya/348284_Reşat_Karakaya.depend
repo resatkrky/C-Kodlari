@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1621166757 source:c:\users\asus\desktop\348284_reşat_karakaya\main.cpp
+	<fstream>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
